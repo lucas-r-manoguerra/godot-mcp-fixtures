@@ -15,6 +15,21 @@ config/description="Live fixtures for godot-mcp-server <-> addon gap-tools verif
 run/main_scene="res://scenes_2d/fixture_2d.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
+[autoload]
+
+MCPGameBridge="res://addons/godot_mcp/game_bridge/mcp_game_bridge.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_mcp/plugin.cfg")
+
+[godot_mcp]
+
+bind_mode=0
+custom_bind_ip=""
+port_override_enabled=false
+port_override=6550
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

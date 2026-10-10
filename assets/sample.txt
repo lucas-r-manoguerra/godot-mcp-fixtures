@@ -1,0 +1,2 @@
+Sonda de importación para import_asset: archivo de texto plano
+sin dependencias de terceros. Contenido intencionalmente mínimo.

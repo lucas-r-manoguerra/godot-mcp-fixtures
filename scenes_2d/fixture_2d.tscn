@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/fixture_2d.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/state_probe_a.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/ping_emitter.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/ping_target.gd" id="4"]
+
+[node name="FixtureRoot" type="Node"]
+script = ExtResource("1")
+
+[node name="Alpha" type="Node2D" parent="."]
+position = Vector2(120, 80)
+script = ExtResource("2")
+
+[node name="Beta" type="Node2D" parent="."]
+position = Vector2(320, 200)
+
+[node name="SampleControl" type="Control" parent="."]
+offset_right = 200.0
+offset_bottom = 100.0
+
+[node name="PingEmitter" type="Node" parent="."]
+script = ExtResource("3")
+
+[node name="PingTarget" type="Node" parent="."]
+script = ExtResource("4")

@@ -1,0 +1,1 @@
+fixture bulk file 240 for list_assets paging

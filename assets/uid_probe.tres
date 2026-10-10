@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://tskoqg74gcp0"]
+
+[ext_resource type="Script" path="res://scripts/uid_probe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+label = "sonda-uid"
+version = 1

@@ -1,0 +1,3 @@
+# Artefactos generados por el editor; se excluyen por diseño
+# (los fixtures de list_assets deben ignorar .godot/ explícitamente).
+.godot/
